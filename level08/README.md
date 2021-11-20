@@ -21,3 +21,15 @@ You need just to rename the ``token`` file, with ``chmod +w .`` and ``mv token p
 ./level08 pwnd
 quif5eloekouj29ke0vouxean
 ```
+
+It gave you the login of the flag08, you just need to log :
+
+```bash
+su flag08
+Password: 
+Don't forget to launch getflag !
+```
+```bash
+getflag
+Check flag.Here is your token : 25749xKZ8L7DkSCwJkT9dyv6f
+```
