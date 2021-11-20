@@ -13,8 +13,20 @@ cat /usr/sbin/john
 cdiiddwpgswtgt
 ```
 
-I used a decrypter website (https://www.dcode.fr/) and got the uncrypted flag :
+I used a decrypter website (https://www.dcode.fr/) and got the uncrypted password :
 ```bash
 After ROT 15 : cdiiddwpgswtgt
-Original flag : nottoohardhere
+Original password : nottoohardhere
+```
+
+Finally I just need to log as ``flag00`` and get the flag.
+```bash
+su flag00
+Password: nottoohardhere
+Don't forget to launch getflag !
+```
+
+```bash
+getflag
+Check flag.Here is your token : x24ti5gi3x0ol2eh4esiuxias
 ```
